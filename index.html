@@ -1,55 +1,186 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
-    <link rel="stylesheet" href="./css/style.css" />
-    <title>PizzaShop</title>
-  </head>
-  <body>
-    <header class="content">
-      <div class="logo">
-        <img
-          src="./img/pngtree-cartoon-yellow-pizza-illustration-png-image_4634672-removebg-preview.png"
-          alt="Logo"
-        />
-        <h3>PizzaShop</h3>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="./css/style.css" />
+  <title>PizzaShop</title>
+</head>
+
+<body>
+  <header class="content">
+    <div class="logo">
+      <img src="./img/pngtree-cartoon-yellow-pizza-illustration-png-image_4634672-removebg-preview.png" alt="Logo" />
+      <h3>PizzaShop</h3>
+    </div>
+    <nav>
+      <ul class="list-menu">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Sobre nós</a></li>
+        <li><a href="#">Cardápio</a></li>
+        <li><a href="#">Contato</a></li>
+        <li>
+          <a href="#"><i class="bi bi-facebook"></i></a>
+        </li>
+        <li>
+          <a href="#"><i class="bi bi-instagram"></i></a>
+        </li>
+        <li>
+          <a href="#"><i class="bi bi-cart2"></i></a>
+        </li>
+      </ul>
+    </nav>
+
+  </header>
+  <section class="first-section">
+    <div class="main-content">
+      <h1>Deixe seu dia mais saboroso!!!</h1>
+      <h2>As pizzas mais recheadas da região</h2><br>
+
+      <div class="btn">
+        <button class="reservar">Reserve a sua!</button>
+        <button class="montar">Montar a sua pizza!</button>
       </div>
-      <nav>
-        <ul class="list-menu">
-          <li><a href="#">Home</a></li>
-          <li><a href="#">Sobre nós</a></li>
-          <li><a href="#">Cardápio</a></li>
-          <li><a href="#">Contato</a></li>
-          <li>
-            <a href="#"><i class="bi bi-facebook"></i></a>
-          </li>
-          <li>
-            <a href="#"><i class="bi bi-instagram"></i></a>
-          </li>
-          <li>
-            <a href="#"><i class="bi bi-cart2"></i></a>
-          </li>
-        </ul>
-      </nav>
-     
-    </header>
-    <section class="first-section">
-      <div class="main-content">
-        <h1>Deixe seu dia mais saboroso!!!</h1>
-        <h2>As pizzas mais recheadas da região</h2><br>
+    </div>
+  </section>
 
+  <section class="sobre-nos" id="sobrenos">
+    <div class="main">
+      <div class="content-sobre">
+        <h2>Sobre nós</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla
+          odit explicabo obcaecati minima earum excepturi dignissimos
+          corporis. Sunt, possimus nostrum dolorum, autem qui et quis,
+          suscipit aliquam hic quos aliquid? Lorem, ipsum dolor sit amet
+          consectetur adipisicing elit. Odio temporibus aut voluptas debitis a
+          iste! Quia alias sint odio deserunt magni, nesciunt culpa ipsum
+          optio iure blanditiis aut accusamus commodi! Lorem ipsum dolor sit
+          amet consectetur adipisicing elit. Temporibus at nisi debitis quam
+          fugit. Facilis porro rem ullam, exercitationem ut dolor vel
+          voluptatum fugit saepe consequatur nostrum necessitatibus, quam
+          minus.
 
-        <h1>
-            parei em 37 minutos</h1>
-        <div class="btn">
-          <button class="reservar">Reserve a sua!</button>
-          <button class="montar">Montar a sua pizza!</button>
+        </p>
+      </div>
+      <div class="img-kitchen">
+        <img src="./img/cozinha.jpg" alt="Kitchen">
+      </div>
+    </div>
+  </section>
+
+  <section class="menu" id="menu">
+    <h2>Cardápio</h2>
+    <div class="itens-menu">
+      <div>
+        <img src="./img/frango-removebg-preview.png" alt="Pizza de Frango">
+        <div class="information">
+          <h3>Frango</h3>
+          <h4>6 fatias <span>R$35,00</span></h4>
+          <h4>8 fatias <span>R$45,00</span></h4>
+          <h4>12 fatias<span>R$55,00</span></h4>
+          <button class="request">Pedir agora</button>
         </div>
       </div>
-    </section>
+      <div>
+        <img src="./img/calabresa-removebg-preview.png" alt="Pizza de Frango">
+        <div class="information">
+          <h3>Calabresa</h3>
+          <h4>6 fatias <span>R$35,00</span></h4>
+          <h4>8 fatias <span>R$45,00</span></h4>
+          <h4>12 fatias<span>R$55,00</span></h4>
+          <button class="request">Pedir agora</button>
+        </div>
+      </div>
+
+      <div>
+        <img src="./img/portuguesa-removebg-preview.png" alt="Pizza de Frango">
+        <div class="information">
+          <h3>Portuguesa</h3>
+          <h4>6 fatias <span>R$35,00</span></h4>
+          <h4>8 fatias <span>R$45,00</span></h4>
+          <h4>12 fatias<span>R$55,00</span></h4>
+          <button class="request">Pedir agora</button>
+        </div>
+      </div>
+
+      <div>
+        <img src="./img/strogonoff-removebg-preview.png" alt="Pizza de Frango">
+        <div class="information">
+          <h3>Strogonoff</h3>
+          <h4>6 fatias <span>R$35,00</span></h4>
+          <h4>8 fatias <span>R$45,00</span></h4>
+          <h4>12 fatias<span>R$55,00</span></h4>
+          <button class="request">Pedir agora</button>
+        </div>
+      </div>
+
+      <div>
+        <img src="./img/prestigio-removebg-preview.png" alt="Pizza de Frango">
+        <div class="information">
+          <h3>Prestígio</h3>
+          <h4>6 fatias <span>R$35,00</span></h4>
+          <h4>8 fatias <span>R$45,00</span></h4>
+          <h4>12 fatias<span>R$55,00</span></h4>
+          <button class="request">Pedir agora</button>
+        </div>
+      </div>
+
+      <div>
+        <img src="./img/chocolate-removebg-preview.png" alt="Pizza de Frango">
+        <div class="information">
+          <h3>Chocolate Preto</h3>
+          <h4>6 fatias <span>R$35,00</span></h4>
+          <h4>8 fatias <span>R$45,00</span></h4>
+          <h4>12 fatias<span>R$55,00</span></h4>
+          <button class="request">Pedir agora</button>
+        </div>
+      </div>
+
+      <div>
+        <img src="./img/confete-removebg-preview.png" alt="Pizza de Frango">
+        <div class="information">
+          <h3>Confete</h3>
+          <h4>6 fatias <span>R$35,00</span></h4>
+          <h4>8 fatias <span>R$45,00</span></h4>
+          <h4>12 fatias<span>R$55,00</span></h4>
+          <button class="request">Pedir agora</button>
+        </div>
+      </div>
+
+      <div>
+        <img src="./img/sensacao-removebg-preview.png" alt="Pizza de Frango">
+        <div class="information">
+          <h3>Sensação</h3>
+          <h4>6 fatias <span>R$35,00</span></h4>
+          <h4>8 fatias <span>R$45,00</span></h4>
+          <h4>12 fatias<span>R$55,00</span></h4>
+          <button class="request">Pedir agora</button>
+        </div>
+      </div>
+    </div>
+    </div>
+  </section>
+  <section class="contacts">
+    <h3>Contatos</h3>
+    <div class="contacts-session">
+    
 
 
-  </body>
+        <i class="bi bi-linkedin"></i>
+        <a href="https://www.linkedin.com/in/erica-inacia-82b7b7206/">
+     
+        <i class="bi bi-github"></i>
+        <a href="https://github.com/EricaInaciadeLima"></a>
+     
+
+    </div>
+  </section>
+
+  <footer>
+    <h4>Desenvolvido por Erica Inacia</h4>
+  </footer>
+</body>
+
 </html>
